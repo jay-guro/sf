@@ -43,6 +43,11 @@ span {
   font-size: 1rem;
   outline: none;
 }
+.input:active {
+  background-color: #000;
+  border: #9f6934 1px solid;
+  color: #fff;
+}
 .button {
   font-weight: 900;
   padding: 1rem 1.5rem;
