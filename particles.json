@@ -1,38 +1,74 @@
 {
   "particles": {
-    "number": { "value": 30, "density": { "enable": true, "value_area": 900 } },
-    "color": { "value": "#ffffff" },
-    "shape": {
-      "type": ["images"],
-      "images": [
-        {
-          "src": "img/particle1.png",
-          "particles": {
-            "move": { "direction": "top", "speed": 1, "straight": true }
-          }
-        },
-        {
-          "src": "img/particle2.png",
-          "particles": {
-            "move": { "direction": "top", "speed": 1, "straight": true }
-          }
-        },
-        {
-          "src": "img/particle3.png",
-          "particles": {
-            "move": { "direction": "top", "speed": 1, "straight": true }
-          }
-        },
-        {
-          "src": "img/particle4.png",
-          "particles": {
-            "move": { "direction": "top", "speed": 1, "straight": true }
-          }
+     "number": {
+        "value": 30,
+        "density": {
+           "enable": true,
+           "value_area": 900
         }
-      ]
-    },
-    "opacity": { "value": 0.2, "random": false },
-    "size": { "value": 30, "random": true },
-    "move": { "enable": true, "out_mode": "out", "bounce": false }
+     },
+     "color": {
+        "value": "#ffffff"
+     },
+     "shape": {
+        "type": [
+           "images"
+        ],
+        "images": [
+           {
+              "src": "img/particle1.png",
+              "particles": {
+                 "move": {
+                    "direction": "top",
+                    "speed": 1,
+                    "straight": true
+                 }
+              }
+           },
+           {
+              "src": "img/particle2.png",
+              "particles": {
+                 "move": {
+                    "direction": "top",
+                    "speed": 1,
+                    "straight": true
+                 }
+              }
+           },
+           {
+              "src": "img/particle3.png",
+              "particles": {
+                 "move": {
+                    "direction": "top",
+                    "speed": 1,
+                    "straight": true
+                 }
+              }
+           },
+           {
+              "src": "img/particle4.png",
+              "particles": {
+                 "move": {
+                    "direction": "top",
+                    "speed": 1,
+                    "straight": true
+                 }
+              }
+           }
+        ]
+     },
+     "opacity": {
+        "value": 0.2,
+        "random": false
+     },
+     "size": {
+        "value": 30,
+        "random": true
+     },
+     "move": {
+        "enable": true,
+        "out_mode": "out",
+        "bounce": false
+     }
   }
 }
